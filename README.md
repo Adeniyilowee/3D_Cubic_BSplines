@@ -44,7 +44,7 @@ subdivision_data = data.visualize_interactive(400, 400)
 
 ```
 # Visualization
-![](https://github.com/Adeniyilowee/3D_Cubic_BSplines/blob/main/media/surfaces.gif)
+![](https://github.com/Adeniyilowee/3D_Cubic_BSplines/blob/main/media/surfaces_.gif)
 
 
 # Requirements
