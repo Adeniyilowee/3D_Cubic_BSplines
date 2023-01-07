@@ -1,26 +1,4 @@
-# 3D_Cubic_BSplines
-
-# Overview
-An interactive Cubic Basis surfaces
-
-
-# Installation
-
-```console
-git clone https://github.com/Adeniyilowee/2D-Cubic-Spline
-```
-
-1. Install the libraries and dependencies
-```console
-cd PySubdiv
-python3 setup.py install
-```
-
-# Quick Start
-
-```python
-
-from Cubic_BSpline_3D.main.data import file
+from main.data import file
 
 sub2 =  [
         [[[0.0, 2, 0], [3, 2, -2], [6, 2, -5], [7, 2, -8], [9, 2, -10], [15, 2, -14]],
@@ -41,26 +19,3 @@ w = 1
 data = file.read_data(sub2, w)
 
 subdivision_data = data.visualize_interactive(400, 400)
-
-```
-# Visualization
-![](https://github.com/Adeniyilowee/2D-Cubic-Spline/blob/main/Cubic_Bspline/media/cubicspline.gif)
-
-
-# Requirements
-- pyvista~=0.33.0
-- QtPy~=2.0.0
-- PyQt5~=5.15.6
-- pyvistaqt~=0.6.0
-- numba~=0.55.1
-- vtk~=9.1.0
-- numpy~=1.22.0
-- setuptools~=57.0.0
-
-
-# License
-The 2D Cubic Spline is under MIT license. https://choosealicense.com/licenses/mit/
-
-
-# Developers
-Full stack devel
