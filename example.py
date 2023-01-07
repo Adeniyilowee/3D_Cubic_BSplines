@@ -1,6 +1,6 @@
 from main.data import file
 
-sub2 =  [
+surfaces =  [
         [[[0.0, 2, 0], [3, 2, -2], [6, 2, -5], [7, 2, -8], [9, 2, -10], [15, 2, -14]],
         [[0.0, 5, 0], [3, 5, -3], [6, 5, -5], [7, 5, -9], [9, 5, -12], [15, 5, -15]],
         [[0.0, 10, 0], [3, 10, -2], [6, 10, -5], [7, 10, -8], [9, 10, -11], [15, 10, -16]],
@@ -16,6 +16,6 @@ sub2 =  [
 
 
 w = 1
-data = file.read_data(sub2, w)
+data = file.read_data(surfaces, w)
 
 subdivision_data = data.visualize_interactive(400, 400)
