@@ -7,7 +7,7 @@ An interactive Cubic Basis surfaces
 # Installation
 
 ```console
-git clone https://github.com/Adeniyilowee/2D-Cubic-Spline
+git clone https://github.com/Adeniyilowee/3D_Cubic_BSplines
 ```
 
 1. Install the libraries and dependencies
