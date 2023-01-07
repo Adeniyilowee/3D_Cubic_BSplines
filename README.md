@@ -60,7 +60,3 @@ subdivision_data = data.visualize_interactive(400, 400)
 
 # License
 The 3D Cubic Spline is under MIT license. https://choosealicense.com/licenses/mit/
-
-
-# Developers
-Full stack devel
