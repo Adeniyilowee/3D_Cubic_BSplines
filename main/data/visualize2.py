@@ -79,7 +79,7 @@ def interactive_plotting(all_data, degree, a, b):
     # 3
     pl.add_checkbox_button_widget(enable_sphere_widget, size=30, color_on='lime', position=((0.3 + 0) * pl.window_size[0], 10))
     pl.add_checkbox_button_widget(enable_sphere_widget1, size=30, color_on='blue', position=((0.35 + 0) * pl.window_size[0], 10))
-    pl.add_mesh(data_points_mesh, color='aqua', point_size=4.0, render_points_as_spheres=True, name='data_points')
+    #pl.add_mesh(data_points_mesh, color='aqua', point_size=4.0, render_points_as_spheres=True, name='data_points')
     pl.add_mesh(model_subdivided_mesh, color='sandybrown', use_transparency=False, show_edges=False, pickable=False, name='subdivided_surface1')
     pl.add_mesh(model_subdivided_mesh_1, color='darkgray', use_transparency=False, show_edges=False, pickable=False, name='subdivided_surface2')  # scalars=model_subdivided_mesh_1.points[:, 2]
     #
